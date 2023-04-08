@@ -1,38 +1,118 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icon-switch-btn {
+  width: 4vw;
+  height: 4vw;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  font-size: 4vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cards-view {
+  width: 90vw;
+  border: 2px solid grey;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1vw;
 }
 
-.App-link {
-  color: #61dafb;
+.shop-card {
+  background-color: #f5f5f6;
+  box-shadow: 5px 10px 2px #505050;
+  width: 25vw;
+  margin-right: 2vw;
+  margin-bottom: 2vw;
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .shop-card-title {
+
+}
+
+.shop-card-color {
+
+} */
+
+.shop-card-preview {
+  width: 15vw;
+  display: block;
+  margin: auto;
+}
+
+.shop-card-price-buy {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: #a61223;
+  
+  margin-bottom: 2vw;
+}
+
+.shop-card-price {
+  display: block;
+  padding: 4px;
+  font-size: 1.25em;
+}
+
+.shop-card-buy-btn {
+  padding: 4px 10px;
+  border: 2px solid #a61223;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.list-view {
+  width: 90vw;
+  border: 2px solid grey;
+  margin: auto;
+  padding: 1vw;
+  list-style: none;
+}
+
+.shop-item {
+  background-color: #f5f5f6;
+  width: 100%;  
+  text-transform: uppercase;
+  border-bottom: 2px solid #505050;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1vw;
+}
+
+.shop-item-title {
+  font-size: 1.5vw;
+}
+
+/* .shop-item-color {
+
+} */
+
+.shop-item-preview {
+  width: 7vw;
+  display: block;
+  margin-bottom: 1vw;
+}
+
+
+.shop-item-price {
+  display: block;
+  padding: 4px;
+  font-size: 1.25em;
+  color: #a61223;
+}
+
+.shop-item-buy-btn {
+  padding: 4px 10px;
+  border: 2px solid #a61223;
+  border-radius: 1em;
+  cursor: pointer;
+  color: #a61223;
 }
