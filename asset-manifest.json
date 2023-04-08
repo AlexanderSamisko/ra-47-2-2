@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AlexanderSamisko/ra-47-2-2/static/css/main.cf8e2fe0.css",
+    "main.js": "/AlexanderSamisko/ra-47-2-2/static/js/main.219fe0d5.js",
+    "static/js/787.1ecf2e4f.chunk.js": "/AlexanderSamisko/ra-47-2-2/static/js/787.1ecf2e4f.chunk.js",
+    "index.html": "/AlexanderSamisko/ra-47-2-2/index.html",
+    "main.cf8e2fe0.css.map": "/AlexanderSamisko/ra-47-2-2/static/css/main.cf8e2fe0.css.map",
+    "main.219fe0d5.js.map": "/AlexanderSamisko/ra-47-2-2/static/js/main.219fe0d5.js.map",
+    "787.1ecf2e4f.chunk.js.map": "/AlexanderSamisko/ra-47-2-2/static/js/787.1ecf2e4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf8e2fe0.css",
+    "static/js/main.219fe0d5.js"
+  ]
+}
